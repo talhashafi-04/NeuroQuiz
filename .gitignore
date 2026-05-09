@@ -2,6 +2,7 @@
 dataset
 data/raw/
 data/processed
+eda_plots/
 # Python cache
 __pycache__/
 *.pyc
