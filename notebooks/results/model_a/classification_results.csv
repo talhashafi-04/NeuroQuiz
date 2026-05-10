@@ -1,0 +1,8 @@
+Model,Accuracy,Macro F1,Precision,Recall,Exact Match
+Logistic Regression (Binary Verifier),0.7499,0.4289,0.525,0.5,0.7499
+Logistic Regression (Multiclass A/B/C/D),0.339,0.3312,0.3379,0.3336,0.339
+SVM LinearSVC (Binary Verifier),0.75,0.4287,0.5417,0.5,0.75
+Naive Bayes (Question Type),0.4572,0.0886,0.1117,0.111,0.4572
+Random Forest (Difficulty Estimator),1.0,1.0,1.0,1.0,1.0
+Label Propagation (Semi-Supervised),0.2762,0.2694,0.2721,0.2717,0.2762
+Ensemble (LR + NB Soft Voting),0.75,0.4286,0.5,0.5,0.75
