@@ -1,0 +1,22 @@
+"""
+Model A: answer verification using preprocessing-aligned features + lr_binary.pkl.
+"""
+
+from __future__ import annotations
+
+from dataclasses import dataclass
+from pathlib import Path
+from typing import Any, Optional
+
+import joblib
+import numpy as np
+
+ROOT = Path(__file__).resolve().parents[2]
+MODELA_DIR = ROOT / "models" / "model_a" / "traditional"
+
+from src.model_a.features import (  # noqa: E402
+    build_combined_four_rows,
+    letter_index,
+    preprocess_quiz_row,
+)
+from src.model_a.Letters import LETTERS  # wrong - I didn't create Letters
