@@ -1,0 +1,2 @@
+Method,BLEU,ROUGE-L,METEOR
+Template + Random Forest Ranker,0.0415,0.1983,0.2334

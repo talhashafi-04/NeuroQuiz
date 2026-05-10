@@ -1,0 +1,4 @@
+Model,Silhouette,Purity,Note
+K-Means,0.5217,0.2754,Hard assignments
+GMM,-0.1396,0.2754,Soft assignments
+Label Propagation,N/A,0.2762,Semi-supervised
